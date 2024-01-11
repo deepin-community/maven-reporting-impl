@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Maven Reporting Implementation
-Source: http://maven.apache.org/shared/maven-reporting-impl/
+Source: https://github.com/apache/maven-reporting-impl
 
 Files: *
 Copyright: 2006-2017, The Apache Software Foundation
@@ -8,7 +8,7 @@ License: Apache-2.0
 
 Files: debian/*
 Copyright: 2008-2011, Torsten Werner <twerner@debian.org>
-           2015-2017, Emmanuel Bourg <ebourg@apache.org>
+           2015-2022, Emmanuel Bourg <ebourg@apache.org>
 License: Apache-2.0
 
 License: Apache-2.0

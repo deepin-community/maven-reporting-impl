@@ -17,4 +17,5 @@
 
 org.apache.maven maven-* * s/.*/3.x/ * *
 org.apache.maven.reporting maven-reporting-api * s/.*/3.x/ * *
-junit junit jar s/3\..*/3.x/
+org.apache.maven.shared maven-shared-components pom s/.*/debian/ * *
+junit junit jar s/4\..*/4.x/
