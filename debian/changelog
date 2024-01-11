@@ -1,3 +1,25 @@
+maven-reporting-impl (3.2.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Depend on libmaven-parent-java to fix a build failure
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Thu, 12 Jan 2023 09:56:36 +0100
+
+maven-reporting-impl (3.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+    - Depend on junit4 instead of junit
+    - Depend on doxia (>= 1.11)
+    - Removed the unused build dependencies
+  * Removed the -java-doc package (Closes: #1028169)
+  * Standards-Version updated to 4.6.1
+  * Switch to debhelper level 13
+  * Use salsa.debian.org Vcs-* URLs
+  * Track and download the new releases from GitHub
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 09 Jan 2023 15:23:01 +0100
+
 maven-reporting-impl (3.0.0-2) unstable; urgency=medium
 
   * Team upload.
